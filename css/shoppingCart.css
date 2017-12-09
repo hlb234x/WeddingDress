@@ -1,0 +1,204 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.middle{
+	width: 1229px;
+	height: auto;
+}
+.title{
+	width: 100%;
+	height: 120px;
+	font: 36px/120px "微软雅黑";
+	text-align: center;
+	color: #fff;
+	background: #ebc3c5;
+}
+.introduce{
+	width: 100%;
+	height: 1164px;
+	position: relative;
+	background: #fff;
+}
+.introduceLeft{
+	width: 390px;
+	height: 600px;
+	padding: 40px 0 0 50px;
+	box-sizing: border-box;
+	float: left;
+}
+.introduceLeft h3{
+	color: #37474f;
+	font-size: 21px;
+}
+.introduceRight{
+	width: 780px;
+	height: 100%;
+	padding: 30px 0 0 0;
+	box-sizing: border-box;
+	float: left;
+}
+.dressBox{
+	width: 558px;
+	height: 800px;
+	margin-left: 115px;
+}
+.dress{
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+.dress img{
+	width: 558px;
+	height: 800px;
+}
+.dressWrap{
+	width: 500px;
+	height: 800px;
+	position: absolute;
+	top: 30px;
+	left: 5px;
+	display: none;
+	overflow: hidden;
+}
+.dressWrapImg{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.dressWrap img{
+	width: 800px;
+	height: 1000px;
+}
+.dressMag{
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background: rgba(228,221,221,.7);
+}
+.dressMag:hover{
+	cursor: pointer;
+}
+.middleFontTwo{
+	width: 360px;
+	height: 48px;
+	font: 13px/48px "微软雅黑";
+	letter-spacing: 2px;
+	color: #999;
+}
+.info{
+	font: 14px/23px "微软雅黑";
+	color: #323232;
+}
+.price{
+	width: 145px;
+	height: 68px;
+	display: block;
+	font: 30px/68px "微软雅黑";
+	color: #0d0d0d;
+}
+.numberFont{
+	width: 28px;
+	height: 26px;
+	color: #323232;
+	font: 14px/21px "微软雅黑";
+}
+.numbe{
+	width: 300px;
+	height: 25px;
+}
+.numbe img{
+	width: 25px;
+	height: 25px;
+}
+.numberPlus{
+	width: 25px;
+	height: 25px;
+	float: left;
+	border: 1px solid #ebc3c5;
+	background: #fff;
+}
+.numberPlus:hover{
+	cursor: pointer;
+}
+.numberReduce{
+	width: 25px;
+	height: 25px;
+	float: left;
+	border: 1px solid #ebc3c5;
+}
+.numberReduce:hover{
+	cursor: pointer;
+}
+.inp{
+	width: 78px;
+	height: 25px;
+	border: none;
+	outline: none;
+	color: #ebc3c5;
+	text-align: center;
+	float: left;
+	font: 14px/25px "微软雅黑";
+	border: 1px solid #ebc3c5;
+	background: #fff;
+}
+.purchase{
+	width: 142px;
+	height: 40px;
+	font: 15px/40px "微软雅黑";
+	float: left;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #000;
+}
+.purchase:hover{
+	cursor: pointer;
+	background: #333;
+}
+.joinVehicle{
+	width: 142px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	font: 15px/40px "微软雅黑";
+	text-align: center;
+	color: #fff;
+	background: #000;
+}
+.joinVehicle:hover{
+	cursor: pointer;
+	background: #333;
+}
+.purchaseNum{
+	width: 78px;
+	height: 25px;
+	outline: none;
+	border: none;
+	border: 1px solid #ccc;
+}
+.dressFontNoe{
+	width: 780px;
+	height: 50px;
+	margin-top: 60px;
+	font-size: 15px;
+	text-indent: 30px;
+	font: 14px/23px "微软雅黑";
+}
+.dressFontTwo{
+	width: 780px;
+	height: 25px;
+	margin-top: 12px;
+	font: 14px/23px "微软雅黑";
+}
+.dressFontThree{
+	width: 780px;
+	height: 50px;
+	margin-top: 14px;
+	font: 14px/23px "微软雅黑";
+}

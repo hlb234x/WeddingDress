@@ -1,0 +1,80 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wrapper{
+	width: 1349px;
+	height: auto;
+}
+.middle{
+	width: 1349px;
+	height: auto;
+	padding: 50px 0 0 120px; 
+	box-sizing: border-box;
+	background: url(../img/loginImg/2017120505.jpg) no-repeat -300px -350px;
+}
+.loginBox{
+	width: 400px;
+	height: auto;
+	padding: 16px 0 0 30px;
+	box-sizing: border-box;
+	color: red;
+	font-size: 13px;
+	background: rgba(191,180,199,.9);
+}
+.loginInp{
+	width: 340px;
+	height: 43px;
+	text-indent: 10px;
+	margin-top: 13px;
+	font: 14px/43px "微软雅黑";
+	outline: none;
+	border: none;
+	border: 1px solid #fff;
+	background: #fff;
+}
+.back{
+	display: block;
+	margin: 10px 0 0 260px;
+	
+}
+.back a{
+	color: #337ab7;
+}
+.back>a:hover{
+	cursor: pointer;
+	color: #23527c;
+	text-decoration: underline;
+}
+.loginBox p{
+	width: 340px;
+	height: 46px;
+	margin-top: 20px;
+	text-align: center;
+	font: 18px/46px "微软雅黑";
+	color: #fff;
+}
+.loginBut{
+	background: #337ab7;
+}
+.loginBut:hover{
+	cursor: pointer;
+	background: #286090;
+}
+.registerBut{
+	background: #5bc0de;
+}
+.registerBut:hover{
+	cursor: pointer;
+	background: #31b0d5;
+}
+#separate{
+	width: 100%;
+	height: 1px;
+}
+.separat{
+	width: 100%;
+	height: 50px;
+}

@@ -1,0 +1,145 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#wrap{
+	width: 1349px;
+	height: auto; 
+	position: relative;
+	background: #fff;
+}
+a{
+	color: #337ab7;
+	font-size: 15px;
+	text-decoration: none;
+}
+a:hover{
+	color: #23527c;
+	text-decoration: underline;
+}
+.interlayer{
+	width: 100%;
+	height: 50px;
+	background: #efefef;
+}
+#main{
+	width: 100%;
+	height: auto;
+	background: #efefef;
+}
+.register{
+	width: 500px;
+	height: 825px;
+	margin: 0 auto;
+	padding: 15px 0 0 30px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.register p{
+	width: 448px;
+	height: 45px;
+	margin-top: 15px;
+}
+.register span{
+	width: 45px;
+	height: 43px;
+	display: block;
+	float: left;
+	outline: none;
+	border: 1px solid #ccc;
+	border-right: none ;
+	background: #efefef;  
+}
+.register span img{
+	width: 25px;
+	margin: 9px 0 0 9px;
+	height: 25px;
+}
+
+.register input{
+	width: 395px;
+	height: 43px;
+	outline: none;
+	border: none;
+	border: 1px solid #ccc;
+	text-indent: 10px;
+	font: 14px/45px "微软雅黑";
+	float: left;
+	background: #fff;
+}
+.register i{
+	color: #323232;
+	font-size: 14px;
+	font-style: normal;
+}
+#check{
+	width: 238px;
+	height: 43px;
+}
+.checkCode{
+	width: 126.66px;
+	height: 45px;
+	margin-left: 30px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.checkCode:hover{
+	cursor: pointer;
+}
+#positio{
+	width: 440px;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+.lineHr{
+	width: 440px;
+	height: 10px;
+	background: #eee;
+}
+#more{
+	width: 100px;
+	height: 30px;
+	margin: 25px 0 0 170px;
+	font: 14px/30px "微软雅黑";
+	text-align: center;
+	color: #777;
+	border: none;
+	background: #fff;
+}
+#moreInformation p{
+	margin-top: 0;
+}
+#moreInformation .names{
+	width: 112.5px;
+	height: 36px;
+	font: 15px/45px "微软雅黑";
+	float: left;
+	color: #333;
+}
+#moreInformation .inpu{
+	width: 307.5px;
+	height: 43px;
+	float: left;
+	background: #fff;
+}
+#confirm{
+	width: 440px;
+	height: 46px;
+	font: 19px/46px "微软雅黑";
+	text-align: center;
+	color: #fff;
+	margin-top: 25px;
+	background: #337ab7;
+}
+#confirm:hover{
+	cursor: pointer;
+	background: #286090;
+}
+.return{
+	text-align: right;
+	font: 15px/40px "微软雅黑";
+}
